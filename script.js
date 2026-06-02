@@ -1,4 +1,4 @@
-const BOOKING_URL = '#online-afspraak';
+const BOOKING_URL = 'https://joannebusscherpedicure.boekingapp.nl';
 
 const menu = document.querySelector('.menu');
 const nav = document.querySelector('#nav');
@@ -19,8 +19,8 @@ if (menu && nav) {
 
 document.querySelectorAll('.js-booking').forEach((link) => {
   link.href = BOOKING_URL;
-  link.removeAttribute('target');
-  link.removeAttribute('rel');
+  link.target = '_blank';
+  link.rel = 'noopener';
 });
 
 const observer = new IntersectionObserver((entries) => {

@@ -227,3 +227,71 @@ figcaption{color:var(--burgundy);font-weight:800}
   margin: 20px 0 0;
   text-align: center;
 }
+
+
+.brand-horizontal {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.brand-horizontal img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.nav .brand-horizontal img {
+  width: 330px;
+}
+.footer .brand-horizontal img {
+  width: 280px;
+}
+.cta-logo-horizontal {
+  width: 250px;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+.hero-copy {
+  position: relative;
+  z-index: 2;
+}
+.booking-direct {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+  padding: 34px 28px;
+  text-align: center;
+}
+.booking-direct-link {
+  margin: 18px 0 0;
+  word-break: break-word;
+}
+.booking-direct-link a {
+  color: var(--burgundy);
+  font-weight: 800;
+}
+.booking-fallback {
+  margin: 12px auto 0;
+  text-align: center;
+}
+@media (max-width: 980px) {
+  .nav .brand-horizontal img {
+    width: 220px;
+  }
+}
+@media (max-width: 620px) {
+  .nav .brand-horizontal img {
+    width: 170px;
+  }
+  .footer .brand-horizontal img {
+    width: 220px;
+  }
+  .cta-logo-horizontal {
+    width: 180px;
+  }
+}
