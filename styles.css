@@ -11,8 +11,8 @@
   --muted:#756864;
   --line:rgba(157,63,91,.18);
   --shadow:0 22px 70px rgba(88,55,42,.13);
-  --serif:"Cormorant Garamond", Georgia, serif;
-  --sans:"Inter", system-ui, -apple-system, Segoe UI, sans-serif;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
@@ -45,7 +45,7 @@ a{color:inherit;text-decoration:none}
 .hero{position:relative;min-height:650px;overflow:hidden;background:linear-gradient(90deg,#fff9f5 0%,#fff7f0 48%,#efd8ca 100%)}
 .hero-bg{position:absolute;inset:0 0 auto auto;width:57%;height:100%;background:
   linear-gradient(90deg,rgba(255,249,245,.0),rgba(255,249,245,.05)),
-  url('/assets/praktijkruimte-joanne-busscher.png') center right/cover no-repeat;filter:saturate(.92) contrast(.96)}
+  url('/assets/hero-praktijkruimte-960.webp') center right/cover no-repeat;filter:saturate(.92) contrast(.96)}
 .hero-bg:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#fff9f5 0%,rgba(255,249,245,.94) 12%,rgba(255,249,245,.3) 43%,rgba(255,249,245,.03) 100%)}
 .hero-curve{position:absolute;left:-4%;right:-4%;bottom:-78px;height:180px;background:var(--ivory);border-radius:50% 50% 0 0/42% 42% 0 0;border-top:11px solid rgba(157,63,91,.22);box-shadow:0 -8px 0 rgba(157,63,91,.09)}
 .hero-inner{position:relative;min-height:650px;display:grid;grid-template-columns:1fr .8fr;align-items:center;gap:40px;padding:70px 0 118px}
@@ -727,3 +727,18 @@ figcaption{color:var(--burgundy);font-weight:800}
   content-visibility: auto;
   contain-intrinsic-size: 1px 280px;
 }
+
+/* PageSpeed LCP fix */
+.hero-bg {
+  background-image:
+    linear-gradient(90deg, rgba(255,249,245,.0), rgba(255,249,245,.05)),
+    url('/assets/hero-praktijkruimte-960.webp') !important;
+}
+@media (min-width: 900px) {
+  .hero-bg {
+    background-image:
+      linear-gradient(90deg, rgba(255,249,245,.0), rgba(255,249,245,.05)),
+      url('/assets/hero-praktijkruimte-1400.webp') !important;
+  }
+}
+img { height: auto; }
