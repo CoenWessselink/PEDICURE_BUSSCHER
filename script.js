@@ -1,4 +1,4 @@
-const BOOKING_URL = 'https://online.sarasalonsoft.nl/';
+const BOOKING_URL = '#online-afspraak';
 
 const menu = document.querySelector('.menu');
 const nav = document.querySelector('#nav');
@@ -19,8 +19,8 @@ if (menu && nav) {
 
 document.querySelectorAll('.js-booking').forEach((link) => {
   link.href = BOOKING_URL;
-  link.target = '_blank';
-  link.rel = 'noopener';
+  link.removeAttribute('target');
+  link.removeAttribute('rel');
 });
 
 const observer = new IntersectionObserver((entries) => {
