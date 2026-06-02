@@ -1,24 +1,25 @@
 # Joanne Busscher Pedicure Borne
 
-SEO + PageSpeed optimalisatie.
+Definitieve zelfcontrole-versie.
 
-## Toegevoegd/geoptimaliseerd
-- LocalBusiness / HealthAndBeautyBusiness JSON-LD structured data
-- WebSite JSON-LD
-- canonical URL
-- uitgebreide Open Graph/Twitter metadata
-- lokale SEO-tekst voor pedicure Borne en omgeving
-- robots.txt en sitemap.xml geactualiseerd
-- WebP-versies van grote afbeeldingen
-- preload voor hero-afbeelding en headerlogo
-- width/height, decoding en lazy loading waar logisch
-- manifest met PNG iconen
-- Cloudflare cache/security headers
-- .npmrc met publieke npm registry
-- geen package-lock.json in de ZIP
+## Gecontroleerd en gecorrigeerd
+- `npm run build` werkt.
+- Geen `package-lock.json` meegeleverd.
+- `.npmrc` forceert publieke npm registry.
+- Geen Google Fonts / render-blocking fontrequest meer.
+- Geen grote PNG hero-afbeelding meer in de ZIP.
+- Alleen noodzakelijke assets blijven over.
+- Hero/LCP gebruikt WebP.
+- Headerlogo gebruikt kleine WebP.
+- Footer/CTA-logo gebruikt kleine WebP.
+- ProVoet-logo heeft expliciete width/height in header, trust-strip en footer.
+- Afspraakknoppen verwijzen alleen naar: https://joannebusscherpedicure.boekingapp.nl
+- SEO JSON-LD, canonical, sitemap, robots en metadata zijn aanwezig.
 
-## Belangrijke link
-Afspraak maken: https://joannebusscherpedicure.boekingapp.nl
+## Contact
+- Telefoon: 06-54331250
+- E-mail: joannebusscher@live.nl
+- Adres: Veldovenweg 17, 7621 GR Borne
 
 ## Build
 ```powershell
