@@ -295,3 +295,76 @@ figcaption{color:var(--burgundy);font-weight:800}
     width: 180px;
   }
 }
+
+
+/* FINAL HEADER + MENU CORRECTION */
+.container {
+  width: min(1380px, calc(100% - 52px));
+}
+.nav {
+  height: 104px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 34px;
+}
+.brand-header {
+  flex: 0 0 360px;
+  min-width: 0;
+}
+.brand-header img {
+  width: 360px;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.navlinks {
+  flex: 1 1 auto;
+  justify-content: flex-end;
+  gap: clamp(16px, 1.45vw, 30px);
+}
+.navlinks a,
+.navlinks > a:not(.button) {
+  white-space: nowrap;
+  line-height: 1;
+  letter-spacing: .075em;
+}
+.navlinks .button {
+  flex: 0 0 auto;
+}
+.brand-horizontal img,
+.nav .brand-horizontal img,
+.brand-logo-image img,
+.nav .brand-logo-image img {
+  width: auto;
+}
+.footer .brand-footer-logo img {
+  width: 310px;
+  height: auto;
+  display: block;
+}
+.cta-logo-wide {
+  width: 240px;
+  height: auto;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  box-shadow: none;
+}
+@media (max-width: 1180px) {
+  .brand-header { flex-basis: 300px; }
+  .brand-header img { width: 300px; }
+  .navlinks { gap: 16px; font-size: 11px; }
+}
+@media (max-width: 980px) {
+  .nav { height: 82px; }
+  .brand-header { flex: 0 1 265px; }
+  .brand-header img { width: 265px; }
+  .navlinks { justify-content: flex-start; }
+}
+@media (max-width: 620px) {
+  .container { width: min(100% - 30px, 1380px); }
+  .brand-header { flex-basis: 205px; }
+  .brand-header img { width: 205px; }
+  .footer .brand-footer-logo img { width: 250px; }
+}
