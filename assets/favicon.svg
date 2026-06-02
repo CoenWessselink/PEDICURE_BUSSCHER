@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 88"><rect width="88" height="88" rx="44" fill="#fbf7f0"/><circle cx="43" cy="43" r="37" fill="none" stroke="#7b5549" stroke-width="2" opacity=".45"/><path d="M35 18v49M35 19h11c10 0 16 5 16 13 0 6-4 10-10 12 8 1 14 6 14 13 0 9-7 15-19 15H35" fill="none" stroke="#7b5549" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M35 43h13" fill="none" stroke="#7b5549" stroke-width="3" stroke-linecap="round"/><path d="M66 14c9 12 9 25 1 39-3 5-6 11-4 16 2 6 9 7 13 3 3-3 1-8-3-8-3 0-6 2-8 4" fill="none" stroke="#7b5549" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".65"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+<rect width="96" height="96" rx="48" fill="#fbf3ee"/>
+<circle cx="46" cy="46" r="36" fill="none" stroke="#9d3f5b" stroke-width="2"/>
+<path d="M35 23v49M35 24h13c10 0 16 5 16 13 0 7-5 11-12 12 9 1 15 6 15 14 0 9-8 15-20 15H35M35 48h14" fill="none" stroke="#9d3f5b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M66 17c10 13 9 28 1 43-3 5-3 10 1 13 4 3 10 1 10-4 0-3-3-5-6-4-4 1-6 4-8 7" fill="none" stroke="#9d3f5b" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
