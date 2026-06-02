@@ -1,13 +1,18 @@
 # Joanne Busscher Pedicure Borne
 
-Correctieronde header/menu/logo:
-- headerlogo vervangen door compact horizontaal SVG-logo
-- footer/CTA gebruiken volledige SVG-logo
-- menu-items blijven op één regel
-- juiste afspraaklink: https://joannebusscherpedicure.boekingapp.nl
+Logo best-effort correctie:
+- originele aangeleverde Logo.png gebruikt als zichtbaar headerlogo
+- geen gecropte/nagemaakte header-SVG meer
+- logo wordt volledig zichtbaar gehouden met object-fit: contain
+- header is iets hoger zodat het logo past
+- afspraakknoppen verwijzen naar de juiste publieke boekingslink: https://joannebusscherpedicure.boekingapp.nl
 - package-lock.json verwijderd
-- .npmrc gebruikt publieke npm registry
+- .npmrc forceert publieke npm registry
 
 ## Build
 npm install
 npm run build
+
+
+## ProVoet
+ProVoet-logo/wordmark toegevoegd als `assets/provoet-logo.svg` en zichtbaar gemaakt in footer en kwaliteitstrip.

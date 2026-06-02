@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-labelledby="title desc">
+<title id="title">ProVoet</title>
+<desc id="desc">ProVoet brancheorganisatie voor de pedicure</desc>
+<style>
+  .pro{fill:#2f3436;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:500}
+  .voet{fill:#18a6a6;font-family:Georgia,'Times New Roman',serif;font-style:italic;font-weight:500}
+  .sub{fill:#687276;font-family:Arial,Helvetica,sans-serif;font-size:13px;letter-spacing:.02em}
+  .line{stroke:#d5c7b7;stroke-width:2;stroke-linecap:round}
+</style>
+<rect width="360" height="120" rx="18" fill="#fffdfb"/>
+<text x="38" y="62" font-size="56" class="pro">Pro</text>
+<text x="129" y="62" font-size="56" class="voet">Voet</text>
+<line x1="38" y1="76" x2="272" y2="76" class="line"/>
+<text x="38" y="96" class="sub">Brancheorganisatie voor de Pedicure</text>
+</svg>
