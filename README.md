@@ -48,3 +48,11 @@ Gebruikte iframe:
 ```
 
 In de website is de hoogte verhoogd naar 760px voor betere weergave binnen de premium lay-out.
+
+## Definitieve publieke boekingslink
+De publieke SARA/BoekingApp-link is ingesteld op:
+https://joannebusscherpedicure.boekingapp.nl
+
+Cloudflare fix:
+- package-lock.json is verwijderd zodat er geen interne sandbox registry meer wordt gebruikt.
+- .npmrc forceert de publieke npm registry.

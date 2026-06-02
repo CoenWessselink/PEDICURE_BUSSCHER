@@ -222,3 +222,8 @@ figcaption{color:var(--burgundy);font-weight:800}
     min-height: 820px;
   }
 }
+
+.booking-external {
+  margin: 20px 0 0;
+  text-align: center;
+}
