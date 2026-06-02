@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://joannebusscherpedicure.nl/sitemap.xml
+Sitemap: https://pedicure-busscher.pages.dev/sitemap.xml
