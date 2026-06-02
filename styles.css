@@ -682,3 +682,48 @@ figcaption{color:var(--burgundy);font-weight:800}
     width: 260px;
   }
 }
+
+
+/* SEO local content block */
+.seo-local {
+  background: linear-gradient(180deg, #fffdfb 0%, #fff8f2 100%);
+  padding-top: 78px;
+  padding-bottom: 78px;
+}
+.seo-local-grid {
+  display: grid;
+  grid-template-columns: 1.25fr .75fr;
+  gap: 42px;
+  align-items: center;
+}
+.seo-local p {
+  color: var(--muted);
+}
+.seo-local-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  padding: 32px;
+  box-shadow: var(--shadow);
+}
+.seo-local-card h3 {
+  font-family: var(--serif);
+  font-size: 34px;
+  line-height: 1.05;
+  margin-bottom: 12px;
+}
+@media (max-width: 860px) {
+  .seo-local-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* PageSpeed: reduce offscreen rendering cost for heavy sections */
+.service-card,
+.price-card,
+.review-grid figure,
+.why-grid article,
+.steps-line article {
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 280px;
+}

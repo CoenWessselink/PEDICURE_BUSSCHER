@@ -1,13 +1,27 @@
 # Joanne Busscher Pedicure Borne
 
-Laatste correctieronde:
-- nieuwe brede/smalle headerlogo-afbeelding toegepast
-- ProVoet-logo toegevoegd aan header
-- ProVoet blijft ook zichtbaar in footer/kwaliteit
-- afspraakknoppen verwijzen naar: https://joannebusscherpedicure.boekingapp.nl
-- package-lock.json verwijderd
-- .npmrc forceert publieke npm registry
+SEO + PageSpeed optimalisatie.
+
+## Toegevoegd/geoptimaliseerd
+- LocalBusiness / HealthAndBeautyBusiness JSON-LD structured data
+- WebSite JSON-LD
+- canonical URL
+- uitgebreide Open Graph/Twitter metadata
+- lokale SEO-tekst voor pedicure Borne en omgeving
+- robots.txt en sitemap.xml geactualiseerd
+- WebP-versies van grote afbeeldingen
+- preload voor hero-afbeelding en headerlogo
+- width/height, decoding en lazy loading waar logisch
+- manifest met PNG iconen
+- Cloudflare cache/security headers
+- .npmrc met publieke npm registry
+- geen package-lock.json in de ZIP
+
+## Belangrijke link
+Afspraak maken: https://joannebusscherpedicure.boekingapp.nl
 
 ## Build
+```powershell
 npm install
 npm run build
+```
